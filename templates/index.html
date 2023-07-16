@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Currency Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Indian Currency Detection</h1>
+    {% if prediction %}
+    <p>The predicted denomination is: {{ prediction }}</p>
+    <img src="{{ img_path }}" width="224" height="224">
+    {% endif %}
+    <form method="POST" action="/predict" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

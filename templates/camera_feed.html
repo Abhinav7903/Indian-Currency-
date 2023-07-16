@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Camera Feed</title>
+  </head>
+  <body>
+    <h1>Camera Feed</h1>
+    <img src="{{ url_for('camera_feed') }}" alt="Camera Feed">
+    <form action="{{ url_for('stop_feed') }}" method="get">
+      <input type="submit" value="Stop Camera Feed">
+    </form>
+  </body>
+</html>
