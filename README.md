@@ -7,9 +7,9 @@ Foreign and visually disable people in India often find difficulties in recogniz
 Training the machine to learn to detect and recognize object from given input, so the machine learning is based on what it sees and learns from their image dataset. Therefore, with a good amount of quality images we can improve machine’s learning ability.
 
 ## Technologies used :
-- Python, Tensorflow, Streamlit
+- Python, Tensorflow, Flask
 
-- Dataset is taken from Kaggle
+- Dataset is taken from Kaggle and Self-Taken
 
 ## Files :
 - currencydetectionmodel.ipynb :
@@ -17,8 +17,8 @@ Training the machine to learn to detect and recognize object from given input, s
   - build the ML deep learning model
   - train the model with the dataset
   - plot graphs for clear understanding
-- app.py : 
-  - Contains python code for streamlit library
+- appv2.py : 
+  - Contains python code for Flask library
   - Initial display, Uploading image, Displaying result
 - img_classification.py :
   - Contains python code to predict the result
@@ -33,7 +33,7 @@ We have used 2 Convolution Layers and a dense layer in our model.
 
 ## How to run the file from cmd :
 - Go to the file location
-- use the command : Streamlit run app.py
+- use the command : python appv2.py
 
 ## Result :
 
