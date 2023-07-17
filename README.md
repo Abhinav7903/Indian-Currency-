@@ -43,3 +43,7 @@ The model gives us
 
 We used Convolution and Dense layers to create our model which helps in detecting Indian Currency accurately to a good extent.
 Futher we can add audio files which will tell us the identified currency and can be used to help the visually disabled, foreign and aged people.
+
+## Collaborators
+sjha2501@gmail.com
+priyanshudas4449@gmail.com
