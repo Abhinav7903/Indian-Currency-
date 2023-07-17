@@ -2,13 +2,12 @@
 Detection of currency notes using deep learning
 
 
-Foreign and visually disable people in India often find difficulties in recognizing different currency notes. Even if some time it is also difficult for Indian healthy people to identify same amount of currency notes with different-new designs. Human eye has also some limitation so some time fake currency not identifiable by them. In this paper deep learning model is trained with dataset and is being tested with different Indian currency with good accuracy.
+Foreign and visually disable people in India often find difficulties in recognizing different currency notes. Even if some time it is also difficult for Indian healthy people to identify same amount of currency notes with different-new designs. In this paper deep learning model is trained with dataset and is being tested with different Indian currency with good accuracy.
 
 Training the machine to learn to detect and recognize object from given input, so the machine learning is based on what it sees and learns from their image dataset. Therefore, with a good amount of quality images we can improve machine’s learning ability.
 
 ## Technologies used :
 - Python, Tensorflow, Flask
-
 - Dataset is taken from Kaggle and Self-Taken
 
 ## Files :
@@ -19,10 +18,7 @@ Training the machine to learn to detect and recognize object from given input, s
   - plot graphs for clear understanding
 - appv2.py : 
   - Contains python code for Flask library
-  - Initial display, Uploading image, Displaying result
-- img_classification.py :
-  - Contains python code to predict the result
-  - Takes uploaded image, loads the ML model, Computes
+  - Initial display, Uploading image, Displaying result with voice
 
 ## Building model :
 We have used 2 Convolution Layers and a dense layer in our model.
